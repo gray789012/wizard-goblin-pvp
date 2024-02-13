@@ -1,0 +1,13 @@
+RigidBody2D
+CollisionShape2D
+StaticBody2D
+CanvasModulate
+Label
+TileMap
+Button
+Sprite2D
+Node2D
+Area2D
+SubViewport
+Camera2D
+Polygon2D

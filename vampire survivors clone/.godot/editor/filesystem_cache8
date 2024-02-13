@@ -1,0 +1,31 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707763471
+bg.png::CompressedTexture2D::5624357159823741820::1707425792::1707425793::1::::<><>::
+bullet.gd::GDScript::-1::1707650630::0::1::::<>RigidBody2D<>::
+bullet.png::CompressedTexture2D::7980767683916529096::1707567733::1707567734::1::::<><>::
+bullet.tscn::PackedScene::8812497951914813016::1707763275::0::1::::<><>::res://bullet.gd<>uid://dlx7cv44i4qyq::::res://bullet.png
+cliffs.png::CompressedTexture2D::988901196468595290::1707758346::1707758348::1::::<><>::
+cliffs.tscn::PackedScene::7761548657246800623::1707763275::0::1::::<><>::res://grasslands.gd<>res://time.gd<>res://spawner.gd<>uid://odbb8kq6hu0q::::res://cliffs.png
+enemybulletcollisionshitthinggy.gd::GDScript::-1::1707506366::0::1::::<>Area2D<>::
+enemy_movement.gd::GDScript::-1::1707755479::0::1::::<>RigidBody2D<>::
+explain.tscn::PackedScene::8199219003462776096::1707763275::0::1::::<><>::uid://cekagurj0j6de::::res://wizard.png<>res://grasslands button.gd<>uid://dmt5g0s0yl3r6::::res://goblin.png<>uid://dlx7cv44i4qyq::::res://bullet.png<>uid://dj46fvxlypi43::::res://snake.png
+goblin.png::CompressedTexture2D::8042584918667906889::1707569401::1707569403::1::::<><>::
+goblin.tscn::PackedScene::7890450910825785369::1707763275::0::1::::<><>::res://enemy_movement.gd<>uid://dmt5g0s0yl3r6::::res://goblin.png<>res://enemybulletcollisionshitthinggy.gd
+grasslands button.gd::GDScript::-1::1707659518::0::1::::<>Button<>::
+grasslands.gd::GDScript::-1::1707755628::0::1::::<>Node2D<>::
+grasslands.tscn::PackedScene::507722690691905151::1707763275::0::1::::<><>::res://grasslands.gd<>res://time.gd<>res://spawner.gd<>uid://4ru6wn1nbelv::::res://tilemap.png
+icon.svg::CompressedTexture2D::8956236064571751792::1707419698::1707419710::1::::<><>::
+levelupglow.png::CompressedTexture2D::3870177566618312464::1707568575::1707568576::1::::<><>::
+logo.png::CompressedTexture2D::939812289968411598::1707657950::1707657953::1::::<><>::
+main_menu.tscn::PackedScene::8645241966897944891::1707763275::0::1::::<><>::res://grasslands button.gd<>uid://nnitog2q1ap7::::res://logo.png
+movement.gd::GDScript::-1::1707761997::0::1::::<>RigidBody2D<>::
+player.tscn::PackedScene::8872766717549762046::1707763275::0::1::::<><>::res://movement.gd<>res://points.gd<>uid://bve0i2q73564k::::res://levelupglow.png<>uid://cekagurj0j6de::::res://wizard.png<>res://Sprite2D2.gd
+points.gd::GDScript::-1::1707754839::0::1::::<>Label<>::
+glitches.tscn::PackedScene::8941054680336349056::1707763275::0::1::::<><>::res://grasslands button.gd
+wormblin.tscn::PackedScene::3971291022845189455::1707763275::0::1::::<><>::res://enemy_movement.gd<>uid://dj46fvxlypi43::::res://snake.png<>res://enemybulletcollisionshitthinggy.gd
+snake.png::CompressedTexture2D::7852720893487929134::1707666560::1707666561::1::::<><>::
+spawner.gd::GDScript::-1::1707761772::0::1::::<>Node2D<>::
+Sprite2D2.gd::GDScript::-1::1707569025::0::1::::<>Sprite2D<>::
+tilemap.png::CompressedTexture2D::2071841763583234675::1707763471::1707763472::1::::<><>::
+time.gd::GDScript::-1::1707565306::0::1::::<>Node2D<>::
+wizard.png::CompressedTexture2D::5074252311413753630::1707568292::1707568293::1::::<><>::

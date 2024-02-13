@@ -1,0 +1,16 @@
+res://cliffs.tscn
+res://enemy_movement.gd
+res://points.gd
+res://grasslands.tscn
+res://player.tscn
+res://bullet.tscn
+res://enemy.tscn
+res://main_menu.tscn
+res://explain.tscn
+res://spawner.gd
+res://wormblin.tscn
+res://goblin.tscn
+res://grasslands.gd
+res://glitches.tscn
+res://movement.gd
+res://grasslands button.gd
