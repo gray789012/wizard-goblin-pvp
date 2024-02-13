@@ -1,0 +1,103 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvf24wfm4atgt"]
+
+[ext_resource type="Script" path="res://grasslands button.gd" id="1_aaphh"]
+[ext_resource type="Texture2D" uid="uid://nnitog2q1ap7" path="res://logo.png" id="2_buk22"]
+
+[node name="main menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 258.0
+offset_right = 780.0
+offset_bottom = 307.0
+keep_pressed_outside = true
+text = "grasslands"
+script = ExtResource("1_aaphh")
+level_togo = "res://grasslands.tscn"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 320.0
+offset_right = 780.0
+offset_bottom = 369.0
+keep_pressed_outside = true
+text = "cliffs"
+script = ExtResource("1_aaphh")
+level_togo = "res://cliffs.tscn"
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(574.57, 137)
+scale = Vector2(2, 2)
+texture = ExtResource("2_buk22")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 594.0
+offset_right = 184.0
+offset_bottom = 632.0
+keep_pressed_outside = true
+text = "explain the game"
+script = ExtResource("1_aaphh")
+level_togo = "res://explain.tscn"
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 382.0
+offset_right = 780.0
+offset_bottom = 431.0
+keep_pressed_outside = true
+text = "more to come!"
+script = ExtResource("1_aaphh")
+
+[node name="Button5" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 444.0
+offset_right = 780.0
+offset_bottom = 493.0
+keep_pressed_outside = true
+text = "more to come!"
+script = ExtResource("1_aaphh")
+
+[node name="Button6" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 506.0
+offset_right = 780.0
+offset_bottom = 555.0
+keep_pressed_outside = true
+text = "more to come!"
+script = ExtResource("1_aaphh")
+
+[node name="Button7" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 568.0
+offset_right = 780.0
+offset_bottom = 617.0
+keep_pressed_outside = true
+text = "more to come!"
+script = ExtResource("1_aaphh")
+
+[node name="Button8" type="Button" parent="."]
+offset_left = 350.0
+offset_top = 630.0
+offset_right = 780.0
+offset_bottom = 679.0
+keep_pressed_outside = true
+text = "more to come!"
+script = ExtResource("1_aaphh")
+
+[connection signal="button_up" from="Button3" to="Button3" method="_on_button_up"]
+[connection signal="button_up" from="Button" to="Button" method="_on_button_up"]
+[connection signal="button_up" from="Button2" to="Button2" method="_on_button_up"]
+[connection signal="button_up" from="Button4" to="Button4" method="_on_button_up"]
+[connection signal="button_up" from="Button5" to="Button5" method="_on_button_up"]
+[connection signal="button_up" from="Button6" to="Button6" method="_on_button_up"]
+[connection signal="button_up" from="Button7" to="Button7" method="_on_button_up"]
+[connection signal="button_up" from="Button8" to="Button8" method="_on_button_up"]
